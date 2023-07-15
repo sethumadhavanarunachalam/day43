@@ -13,10 +13,18 @@
   width: 200px;
 
 }
+.addandedit{
+  display: flex;
+}
 .getr{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.editbtn{
+  margin: 10px;
+  background-color: lightcoral;
+  border-radius: 10px;
 }
 .getbtn{
   margin: 10px;
@@ -41,4 +49,35 @@ input{
   border-radius: 10px;
   width: 200px;
    margin-left: 60px;
+}
+
+.profile{
+  object-fit: cover;
+}
+
+.cards{
+ 
+  
+  text-align: center;
+  margin: 10px;
+  width: 300px;
+}
+
+.studcard{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.overall{
+  align-items: center;
+}
+.inputField{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.btninput{
+  width: 150px;
+  margin-left: 60px;
 }
